@@ -4,6 +4,8 @@ channels:
 dependencies:
   - python=3.8
   - pip:
+    - Cython
+    - numpy>=1.19
     - vamp>=1.1.0,<2.0.0
     - spleeter>=2.3.0,<3.0.0
     - madmom>=0.16.1,<0.17.0
